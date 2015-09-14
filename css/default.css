@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color:#A3D1FF;
+	margin:0px;
+}
+
+#logoname_text {
+	font-size:60px;
+	color:#F2F2F2;
+	text-shadow: 2px 2px 0 #9E9B9A, -2px 2px 0 #9E9B9A, -2px -2px 0 #9E9B9A, 2px -2px 0 #9E9B9A;
+}
+
+#logoname_link:link, #logoname_link:visited, #headerlink:link, #headerlink:visited {
+	color:#3385FF;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#headerlink:hover {
+	color:#3385FF;
+	text-decoration:underline;
+}
+
+#headerlink:active {
+	text-decoration:none;
+	text-shadow: 0px 1px 0 #3385FF;
+}
+
+
+
+
+/* For the header */
+
+#logoname_link:hover {
+	text-decoration:none;
+}
+
+#headerlink:hover {
+	background-color:#4D555C;
+}
+
+#headerlink:link, #headerlink:visited {
+	float:right;
+	color:black;
+	margin-right:3px;
+	margin-top:10px;
+	background-color:#313F4C;
+	color:white;
+	padding:24;
+	padding-top:34px;
+	padding-bottom:4px;
+	font-size:20px;
+}
+
+.header {
+	position:absolute;
+	top:0px;
+	background-color:#212A33;
+	width:100%;
+	height:75px;
+}
+
+.content {
+	position:absolute;
+	top:75;
+	margin: 10px;
+	width: 100%;
+	background-color:green;
+
+}

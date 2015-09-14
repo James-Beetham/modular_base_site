@@ -1,0 +1,10 @@
+li {
+	list-style-type: none;
+}
+
+#feature {
+	font-weight: bold;
+	background-color: white;
+	margin: 20px;
+	width: 50%;
+}
